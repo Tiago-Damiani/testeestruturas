@@ -291,6 +291,13 @@ build _deps/libprg-build/install/strip: phony _deps/libprg-build/CMakeFiles/inst
 
 build cmake_object_order_depends_target_libprg: phony || _deps/libprg-build/libprg/CMakeFiles/libprg.dir
 
+build _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/lista.c.o: C_COMPILER__libprg_unscanned_Debug /home/aluno/CLionProjects/testeestruturas/cmake-build-debug/_deps/libprg-src/libprg/src/libprg/lista.c || cmake_object_order_depends_target_libprg
+  DEP_FILE = _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/lista.c.o.d
+  FLAGS = -g -std=gnu17 -fdiagnostics-color=always
+  INCLUDES = -I/home/aluno/CLionProjects/testeestruturas/cmake-build-debug/_deps/libprg-src/libprg/src/include
+  OBJECT_DIR = _deps/libprg-build/libprg/CMakeFiles/libprg.dir
+  OBJECT_FILE_DIR = _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg
+
 build _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/sum.c.o: C_COMPILER__libprg_unscanned_Debug /home/aluno/CLionProjects/testeestruturas/cmake-build-debug/_deps/libprg-src/libprg/src/libprg/sum.c || cmake_object_order_depends_target_libprg
   DEP_FILE = _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/sum.c.o.d
   FLAGS = -g -std=gnu17 -fdiagnostics-color=always
@@ -320,7 +327,7 @@ build _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/libprg.c.o: C_C
 #############################################
 # Link the static library _deps/libprg-build/libprg/liblibprg.a
 
-build _deps/libprg-build/libprg/liblibprg.a: C_STATIC_LIBRARY_LINKER__libprg_Debug _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/sum.c.o _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/sub.c.o _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/libprg.c.o
+build _deps/libprg-build/libprg/liblibprg.a: C_STATIC_LIBRARY_LINKER__libprg_Debug _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/lista.c.o _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/sum.c.o _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/sub.c.o _deps/libprg-build/libprg/CMakeFiles/libprg.dir/src/libprg/libprg.c.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = _deps/libprg-build/libprg/CMakeFiles/libprg.dir
   POST_BUILD = :
