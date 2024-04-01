@@ -7,7 +7,7 @@ int main(void) {
     result_t r = compute(a, b, SUM);
     printf("%d + %d = %8.2f", a, b, r.value);
 
-    criarlista(5);
+    criarlista();
 
     return 0;
 }
